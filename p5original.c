@@ -8,7 +8,7 @@ int input_array_size()
 }
 void init_array(int n, int a[n])
 {
-  for (int i=1;i<n;i++)//a[n]->2-n
+  for (int i=1;i<n;i++)
     {
       a[i]=i+1;
     }
